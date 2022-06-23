@@ -1,0 +1,27 @@
+body{
+    background-color:lightgreen;
+}
+table{
+    margin:10px auto;
+}
+td.card{
+    width:80px;
+    height:120px;
+    margin:2px;
+    background-size:cover;
+}
+td.card.back{
+    background-image:url(../images/z01.gif) !important;
+}.fadeout{
+	animation:fadeOut 1.5s ease-in-out;
+	animation-fill-mode:forwards;
+}
+@keyframes fadeOut{/*消えるやつ*/
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+		display:none;
+	}
+}
